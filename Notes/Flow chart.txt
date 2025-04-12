@@ -1,0 +1,8 @@
+Introduction to flow chart.
+
+Flow chart is a step by step diagrammatic representation of the logic to solve a given problem. It is a graphical representation of an algorithm.
+
+#Advantages
+
+. Shows the logic of a problem display in a pictorial fashion.
+. 

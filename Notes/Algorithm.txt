@@ -1,0 +1,129 @@
+1. Algorithm to add, multiply, subtract, and divide given number
+
+Step 1: Start
+Step 2: Input 2 numbers num1, num2
+Step 3: calculate
+	sum = num1 + num2
+	sub = num1 - num2
+	mul = num1 * num2
+	div = num1 / num2
+Step 4: Display sum, sub, mul, and div
+Step 5: Stop
+
+2. Algorithm to find area of a rectangle and circle
+
+Step 1: Start
+Step 2: Input length (l), breadth (b) of rectangle and radius (r) of circle
+Step 3: calculate
+	Area of Rectangle = l * b
+	Area of Circle = (22/7) * r * r
+Step 4: Display Area of Rectangle and Area of Circle
+Step 5: Stop
+ 
+3. Algorithm to find the price of n number of mangoes given the price of a dozen mangoes
+
+Step 1: Start
+Step 2: Input price of a dozen mangoes (p) and no of mangoes (n)
+Step 3: Calculate
+	price of n mangoes = n * (p/12)
+Step 4: Display n
+Step 5: Stop
+
+4. Algorithm to determine whether the given number is even or odd
+
+Step 1: Start
+Step 2: Input a number num
+Step 3: if (num % 2 == 0)
+	   print (even)
+	else
+	   print (odd)
+Step 4: Display num
+Step 5: Stop
+
+Logic Gates
+
+AND (&&) gate: To make whole statement True whole statement needs to be True. For eg: x > 10 && y > 10 			    both x and  x and y need to be greater than 10 be make the statement true otherwise the whole 			    statement will be false.
+
+OR ( || ) gate: To make the whole statement True either one statement needs to be True. For eg: x >10 || x > 10
+		      either only x or y need to be greater than 10 to make the statement True.
+
+
+Homework
+
+#Algorithm to determine weather the given number is isosceles or not.
+
+
+5. Algorithm to sum the given number digits
+
+Step 1: Start
+Step 2: Input a number (num) and sum = 0
+Step 3: Check until (num != 0)
+	        rem = num%10
+		sum = sum + rem
+		num = num/10
+Step 4: Print sum
+Step 5: Stop
+
+6. Algorithm to reverse the given number
+
+Step 1: Start
+Step 2: Input a number (num) and rev = 0
+Step 3: Check until (num != 0)
+		rem = num%10
+		rev = rev*10+rem
+		num = num/10
+Step 4: Print rev
+Step 5: Stop
+
+7. Algorithm to find if the given number is palindrome or not
+
+Step 1: Start
+Step 2: Input a number (num), rev =0 and orgNum = num
+Step 3: Check until (num != 0)
+		rem = num%10
+		rev = rev*10+rem
+		num = num/10
+Step 4: if (orgNum == rev)
+		print ("palindrome number")
+	    else
+		print ("Not a palindrome number")
+Step 5: Stop
+
+8. Algorithm to find if the given number is prime or nor
+
+Step 1: Start
+Step 2: Input a number (num)
+Step 3: if num < 1
+		print ("Not a prime number") and stop
+Step 4: if n == 2 || n == 3
+		print("Prime number")
+Step 5: for i in Range(2, n-1)
+	 	if(n%i == 0)
+			print("Not a prime number")
+		else
+			print("Prime number")
+Step 5: Stop
+
+9. Algorithm to find the Fibonacci series
+
+Step 1: Start
+Step 2: input value of n
+Step 3: if n<=0
+		print ("Invalid") and stop
+Step 4: if n == 1
+		print 0 and stop
+Step 5: Initialize 
+		first term(a) = 0
+		second term(b) = 1
+		count = 2
+		while (count < n)
+		third term(c) = a+b
+			print c
+		update
+			a = b
+			b = c
+		increment count
+Step 6: Stop
+			
+
+#Write algorithm to find f the gicen number is divisible by 5 or 3 or both. 
